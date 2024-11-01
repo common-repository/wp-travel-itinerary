@@ -1,0 +1,115 @@
+/* @group General */
+
+.wpti-widget{
+padding:0 3px;
+}
+.wpti-title{
+font-weight:bold;
+}
+.wp-travel-itinerary ul{
+list-style-type:square;
+margin:6px 0 18px 24px;
+}
+.wp-travel-itinerary ul li{
+list-style-type:square;
+line-height:1.75;
+}
+.wpti-sig{
+color: #eee;
+height: 0;
+overflow: hidden;
+width: 0;
+}
+
+/* @end */
+
+/* @group Schedule */
+
+.wpti-schedule-title span{
+font-style:italic;
+}
+.wpti-flag{
+float:left;
+margin:3px 9px 0 0;
+overflow:hidden;
+position:relative;
+}
+.wpti-flag a{
+display:block;
+height:11px;
+text-indent:-9999px;
+width:16px;
+}
+.wpti-flag img{
+display:block;
+height:11px;
+position:absolute;
+width:16px;
+}
+
+/* @end */
+
+/* @group Meetups */
+
+#wpti-meetup,
+#wpti-meetup-success{
+background:#f5f5f5;
+border:1px solid #eee;
+display:none;
+margin:0 0 24px;
+overflow:hidden;
+padding:0 12px 12px;
+-webkit-border-radius:12px;
+-khtml-border-radius:12px;
+-moz-border-radius:12px;
+border-radius:12px;
+}
+#wpti-meetup-location{
+width:100%;
+}
+#wpti-meetup-success div{
+margin:12px 0 0;
+}
+#wpti-meetup-success{
+display:none;
+text-align:center;
+}
+#wpti-meetup label{
+display:block;
+font-size:10px;
+margin:12px 0 0;
+}
+.wpti-meetup-text{
+border:1px solid #ccc;
+margin:0;
+padding:3px 0;
+width:100%;
+-webkit-border-radius:3px;
+-khtml-border-radius:3px;
+-moz-border-radius:3px;
+border-radius:3px;
+}
+textarea.wpti-meetup-text{
+margin:0 0 12px;
+}
+.wpti-meetup-success {
+text-align:center;	
+}
+#wpti-meetup-submit{
+float:left;
+}
+#wpti-meetup-sending{
+display:none;
+float:left;
+padding:3px 6px 0;
+}
+.wpti-meetup-close{
+float:right;
+font-size:10px;
+line-height:2;
+}
+.wpti-form-error{
+border-color:#c00;
+}
+
+/* @end */
